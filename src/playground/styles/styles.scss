@@ -18,3 +18,16 @@ nb-card.popover-card {
   margin: 0;
   box-shadow: none;
 }
+
+.example-items-row {
+  margin-top: -1rem;
+
+  > * {
+    margin-top: 1rem;
+    margin-right: 1rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
